@@ -1,0 +1,40 @@
+nav {
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    background-color:  #001736;
+}
+
+body{
+    margin: 0;
+}
+
+.headings{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    color:white;
+    bottom: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #001736;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  img{
+    position: absolute;
+    left: 0;
+    top: 0;     
+  }
+
+.shop{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
